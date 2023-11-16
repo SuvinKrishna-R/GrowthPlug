@@ -1,0 +1,200 @@
+#topnav {
+    background-color: rgb(34, 126, 188);
+    width: 100%;
+    height: 10vh;
+}
+
+
+#appo_btn {
+    width: 300px;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+#homesection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(11, 10, 5, 0.426)), url("https://i.postimg.cc/NFP6TBc8/3042.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+#row1{
+    display: flex;
+    justify-content: center;
+    padding-top: 25vh;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 60px;
+    color: white;
+    
+}
+#row2{
+    width: 100%;
+    height: 10%;
+    
+}
+#row3{
+    width: 100%;
+    height: 10%;
+    
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#submitBtn{
+   
+    /* margin-left:38%; */
+    width: 20%;
+    height: 50%;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#part2{
+    background-image: linear-gradient(rgb(34, 126, 188), rgba(194, 223, 243, 0.673));
+    width: 100%;
+    
+}
+
+#col1{
+    background-color: white;
+    margin-left: 60px;
+    /* height: 50vh; */
+    width: 22%;
+   
+}
+
+#col2{
+    background-color: white;
+    margin-left: 5px;
+    /* height: 50vh; */
+    width: 22%;
+}
+#col3{
+    background-color: white;
+    
+    /* height: 50vh; */
+    width: 22%;
+}
+.cols{
+    background-color: white;height: 250px; width: 20%;margin-top: 40px; margin-left: 5px;margin-bottom: 40px;
+}
+#img1{
+    height: 50%;
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+ 
+#ONLINE_FORMS{
+    text-align: center;
+    color:rgb(34, 126, 188) ;
+
+}
+
+#MEET_DR_WILLS{
+    text-align: center;
+    color:rgb(34, 126, 188) ;
+
+
+}
+#PATIENT_REVIEWS{
+    text-align: center;
+    color:rgb(34, 126, 188) ;
+
+
+}
+
+#FUN_TEAM_PHOTOS{
+    text-align: center;
+    color:rgb(34, 126, 188) ;
+
+
+}
+
+#welcome1{
+    background-image: url("https://i.postimg.cc/NFP6TBc8/3042.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 50vh;
+    width: 40%;
+    margin-left: 40px;
+    
+}
+#welcome2{
+    width: 50%;
+   
+}
+#meetDoctor1{
+    background-image: url('https://i.postimg.cc/vHjV3zNG/R-1.jpg');
+    background-repeat: no-repeat;
+    background-size:   cover ;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+#meetDoctor2{
+    /* background-image: url("https://i.postimg.cc/Yq3X0j85/coffee-lifestyle-couple-tablet.webp"); */
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: 50%;
+    height: 50vh;
+    
+}
+.checked {
+    color: orange;
+  }
+
+  #card1{
+    width: 100%;
+    height: 100%;
+     }
+
+ #card1 img{width: 140px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   #insuranceInfo2{
+    width: 100%;
+    height: 100%;
+   }
+
+   #insuranceInfo2 img{
+    height: 55vh;
+    width: 100%;
+   }
+
+
+@media screen and (max-width: 500px) {
+    #row1 {
+        font-size: 30px;
+    }
+    #submitBtn{
+        width: 40%;
+    }
+    #welcome1{
+        width: 90%;
+    }
+    #welcome2{
+        width: 90%;
+    }
+  }
+
